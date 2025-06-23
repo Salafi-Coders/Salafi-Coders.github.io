@@ -1,54 +1,49 @@
-# React + TypeScript + Vite
+<img src="https://github.com/user-attachments/assets/5c687445-0e78-4442-89f2-8e37e08f556f" alt="Salafi Coders Logo" width="256" height="256"/>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Salafi Coders
 
-Currently, two official plugins are available:
+**Salafi Coders** is a community of developers upon the *Manhaj as-Salaf aṣ-Ṣāliḥ*, building open-source tools and resources to benefit the Ummah.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🌐 Portfolio Website
 
-## Expanding the ESLint configuration
+This site showcases projects, contributions, and members from the Salafi Coders community. It aims to highlight beneficial work in tech done by Muslims adhering to the Qur’ān, Sunnah, and the understanding of the righteous predecessors.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### 📁 Features
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- 💻 Developer Portfolio Pages  
+- 🛠️ Open Source Project Highlights  
+- 📜 Resources for Muslims in Tech  
+- 🤝 Community Contribution Support  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+### 🧱 Built With
+
+- Next.js / React  
+- Tailwind CSS  
+- GitHub Pages Deployment  
+- Markdown for content management  
+
+---
+
+### 🤲 A Note of Intent
+
+> *"Indeed, actions are judged by intentions..."*  
+> — [Ṣaḥīḥ al-Bukhārī, 1]
+
+This project is for the sake of Allāh, to promote beneficial knowledge and cooperation upon al-Ḥaqq.
+
+---
+
+### 📬 Contribute
+
+We welcome contributions from Salafī Muslims in tech. Please ensure your contributions align with Islamic ethics and the methodology of the Salaf.
+
+---
+
+### 📖 License
+
+This project is open-source under the MIT License.  
+**Bārak Allāhu fīkum.**
