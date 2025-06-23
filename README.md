@@ -10,9 +10,8 @@ This site showcases projects, contributions, and members from the Salafi Coders 
 
 ---
 
-### 📁 Features
+### 📁 (Planned) Features
 
-- 💻 Developer Portfolio Pages  
 - 🛠️ Open Source Project Highlights  
 - 📜 Resources for Muslims in Tech  
 - 🤝 Community Contribution Support  
