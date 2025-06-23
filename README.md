@@ -21,7 +21,8 @@ This site showcases projects, contributions, and members from the Salafi Coders 
 
 ### 🧱 Built With
 
-- Next.js / React  
+- Vite / React  
+- Typescript
 - Tailwind CSS  
 - GitHub Pages Deployment  
 - Markdown for content management  
