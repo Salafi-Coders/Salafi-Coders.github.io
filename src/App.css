@@ -7,9 +7,11 @@
 .highlighted-text {
   background: linear-gradient(45deg, #ff8c8c, #ffe608);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 0 0 10px #ffeb3b60;
 }
+
 .btn-glow {
   background: #dc143c;
   color: #fff;

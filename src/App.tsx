@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 
 function App() {
   return (
-        <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+    <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
 
     <div className="flex min-h-svh flex-col items-center">
       <Navbar />
@@ -19,9 +19,7 @@ function App() {
       <Footer />
       </div>
     </div>
-        </ThemeProvider>
-
-    
+    </ThemeProvider>
   )
 }
 
