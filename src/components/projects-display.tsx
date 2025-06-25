@@ -3,24 +3,24 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 export default function Projects() {
     const projects = [
         {
-            title: "Quran App",
-            description: "A modern Quran reading app with tafsir and audio playback.",
-            link: "https://quran.salafi-coders.com",
+            title: "Salafi Bot",
+            description: "A Salafi Discord Bot for all Your Needs",
+            link: "https://github.com/Salafi-Coders/salafibot",
         },
         {
-            title: "Islamic Blog",
-            description: "A blog platform for sharing Islamic articles and resources.",
-            link: "https://blog.salafi-coders.com",
+            title: "More coming soon...",
+            description: "Stay tuned for more exciting projects from Salafi Coders!",
+            link: "/",
         },
         {
-            title: "Prayer Times",
-            description: "A web app to display accurate prayer times for any location.",
-            link: "https://prayertimes.salafi-coders.com",
+            title: "More coming soon...",
+            description: "Stay tuned for more exciting projects from Salafi Coders!",
+            link: "/",
         },
     ];
 
     return (
-        <div className="grid bg-background gap-6 md:grid-cols-2 lg:grid-cols-3 p-6">
+        <div className="grid bg-background gap-6 md:grid-cols-2 lg:grid-cols-3 p-6 pb-32">
             {projects.map((project) => (
                 <Card key={project.title} className="hover:shadow-lg bg-background transition-shadow">
                     <CardHeader>
