@@ -18,7 +18,7 @@ export default function Navbar() {
                         alt="Salafi Coders Logo"
                         width={60}
                         height={60}
-                        className="mr-4"
+                        className="mr-4 rounded-sm"
                     />
                     <span className="text-lg font-semibold text-foreground">
                         Salafi Coders
