@@ -1,10 +1,8 @@
 import {
     NavigationMenu,
-    NavigationMenuContent,
     NavigationMenuItem,
     NavigationMenuLink,
-    NavigationMenuList,
-    NavigationMenuTrigger,
+    NavigationMenuList
 } from "@/components/ui/navigation-menu"
 import { ModeToggle } from "./mode-toggle"
 
@@ -26,18 +24,16 @@ export default function Navbar() {
             </div>
             {/* Nav items on the right */}
             <NavigationMenu>
-                <NavigationMenuList className="flex items-center">
+                <NavigationMenuList className="flex items-center gap-4">
                     <NavigationMenuItem>
-                        <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
-                        <NavigationMenuContent>
-                            <NavigationMenuLink>Link</NavigationMenuLink>
-                        </NavigationMenuContent>
+                        <NavigationMenuLink className="px-4 py-2" href="/">
+                            Home
+                        </NavigationMenuLink>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
-                        <NavigationMenuTrigger>Item Two</NavigationMenuTrigger>
-                        <NavigationMenuContent>
-                            <NavigationMenuLink>Link</NavigationMenuLink>
-                        </NavigationMenuContent>
+                        <NavigationMenuLink className="px-4 py-2" href="/">
+                            Projects
+                        </NavigationMenuLink>
                     </NavigationMenuItem>
                     <ModeToggle />
                 </NavigationMenuList>
