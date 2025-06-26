@@ -19,16 +19,24 @@ export default function Footer () {
                 </span>
                 <nav className="flex gap-4">
                     <a
-                        href="/"
+                        href="https://github.com/Salafi-Coders"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="text-sm text-muted-foreground hover:underline"
                     >
-                        Home
+                        GitHub
                     </a>
                     <a
-                        href="/projects"
+                        href="/about"
                         className="text-sm text-muted-foreground hover:underline"
                     >
-                        Projects
+                        About
+                    </a>
+                    <a
+                        href="/contact"
+                        className="text-sm text-muted-foreground hover:underline"
+                    >
+                        Contact
                     </a>
                 </nav>
             </div>

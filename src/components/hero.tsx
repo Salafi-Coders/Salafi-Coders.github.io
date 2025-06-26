@@ -9,12 +9,8 @@ export default function Hero() {
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-2xl">
                 Empowering developers with modern tools, resources, and a supportive community.
             </p>
-            <Button
-                size="lg"
-                className="px-8"
-                onClick={() => window.location.href = "/projects"}
-            >
-                View Projects
+            <Button size="lg" className="px-8">
+                Get Started
             </Button>
         </section>
     );
