@@ -16,13 +16,18 @@ jobs:
       - name: 🔧 Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20' # or match your project version
+          node-version: '20'
 
       - name: 📦 Install dependencies
         run: npm install
 
       - name: 🛠️ Build the project
         run: npm run predeploy
+
+      - name: 👤 Configure Git user
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: 🚀 Deploy to GitHub Pages
         run: npm run deploy
