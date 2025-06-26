@@ -24,13 +24,8 @@ jobs:
       - name: 🛠️ Build the project
         run: npm run predeploy
 
-      - name: 👤 Configure Git user
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
       - name: 🚀 Deploy to GitHub Pages
-        run: npm run deploy
         env:
-          GIT_USER: github-actions
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+        run: npm run deploy
