@@ -5,6 +5,7 @@ import {
     NavigationMenuList
 } from "@/components/ui/navigation-menu"
 import { ModeToggle } from "./mode-toggle"
+import { LanguageToggle } from "./language-toggle"
 
 export default function Navbar() {
     return (
@@ -35,7 +36,10 @@ export default function Navbar() {
                             Projects
                         </NavigationMenuLink>
                     </NavigationMenuItem>
-                    <ModeToggle />
+                    <div className="flex items center gap-2">
+                        <LanguageToggle />
+                        <ModeToggle />
+                    </div>
                 </NavigationMenuList>
             </NavigationMenu>
         </nav>
