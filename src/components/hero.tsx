@@ -12,7 +12,7 @@ export default function Hero() {
             <Button
                 size="lg"
                 className="px-8"
-                onClick={() => window.location.href = "/projects"}
+                onClick={() => window.location.href = "#projects"}
             >
                 View Projects
             </Button>

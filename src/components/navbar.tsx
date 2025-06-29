@@ -32,7 +32,7 @@ export default function Navbar() {
                         </NavigationMenuLink>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
-                        <NavigationMenuLink className="px-4 py-2" href="/">
+                        <NavigationMenuLink className="px-4 py-2" href="/#projects">
                             Projects
                         </NavigationMenuLink>
                     </NavigationMenuItem>

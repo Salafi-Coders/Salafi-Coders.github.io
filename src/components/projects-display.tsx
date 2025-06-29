@@ -20,7 +20,7 @@ export default function Projects() {
     ];
 
     return (
-        <div className="grid bg-background gap-6 md:grid-cols-2 lg:grid-cols-3 p-6 pb-32">
+        <div className="projects grid bg-background gap-6 md:grid-cols-2 lg:grid-cols-3 p-6 pb-32">
             {projects.map((project) => (
                 <Card key={project.title} className="hover:shadow-lg bg-background transition-shadow">
                     <CardHeader>
