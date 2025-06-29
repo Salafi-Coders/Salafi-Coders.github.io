@@ -6,12 +6,13 @@
   "homepage": "https://salafi-coders.github.io",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -u \"github-actions[bot] <github-actions[bot]@users.noreply.github.com>\" -r https://x-access-token:${GH_TOKEN}@github.com/Salafi-Coders/Salafi-Coders.github.io.git",
+    "deploy": "gh-pages -d dist -u \\\"github-actions[bot] <github-actions[bot]@users.noreply.github.com>\\\" -r https://x-access-token:${GH_TOKEN}@github.com/Salafi-Coders/Salafi-Coders.github.io.git",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
+
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.11",
     "@radix-ui/react-avatar": "^1.1.10",
