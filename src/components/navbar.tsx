@@ -1,6 +1,7 @@
 import {
     NavigationMenu,
     NavigationMenuItem,
+    NavigationMenuLink,
     NavigationMenuList
 } from "@/components/ui/navigation-menu";
 import { ModeToggle } from "./mode-toggle";
@@ -32,9 +33,9 @@ export default function Navbar() {
                         </Link>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
-                        <Link className="px-4 py-2" to="/projects">
+                        <NavigationMenuLink className="px-4 py-2" href="/projects">
                             Projects
-                        </Link>
+                        </NavigationMenuLink>
                     </NavigationMenuItem>
                     <div className="flex items center gap-2">
                         <LanguageToggle />
