@@ -1,11 +1,11 @@
 import {
     NavigationMenu,
     NavigationMenuItem,
-    NavigationMenuLink,
     NavigationMenuList
-} from "@/components/ui/navigation-menu"
-import { ModeToggle } from "./mode-toggle"
-import { LanguageToggle } from "./language-toggle"
+} from "@/components/ui/navigation-menu";
+import { ModeToggle } from "./mode-toggle";
+import { LanguageToggle } from "./language-toggle";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
     return (
@@ -27,14 +27,14 @@ export default function Navbar() {
             <NavigationMenu>
                 <NavigationMenuList className="flex items-center gap-4">
                     <NavigationMenuItem>
-                        <NavigationMenuLink className="px-4 py-2" href="/">
+                        <Link className="px-4 py-2" to="/">
                             Home
-                        </NavigationMenuLink>
+                        </Link>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
-                        <NavigationMenuLink className="px-4 py-2" href="/">
+                        <Link className="px-4 py-2" to="/projects">
                             Projects
-                        </NavigationMenuLink>
+                        </Link>
                     </NavigationMenuItem>
                     <div className="flex items center gap-2">
                         <LanguageToggle />
