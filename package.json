@@ -6,7 +6,7 @@
   "homepage": "https://salafi-coders.github.io",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -r https://x-access-token:${GH_TOKEN}@github.com/Salafi-Coders/Salafi-Coders.github.io.git",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
