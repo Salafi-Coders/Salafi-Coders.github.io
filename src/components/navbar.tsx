@@ -26,7 +26,7 @@ export default function Navbar() {
             </div>
             {/* Nav items on the right */}
             <NavigationMenu>
-                <NavigationMenuList className="flex items-center gap-4">
+                <NavigationMenuList className="flex items-center">
                     <NavigationMenuItem>
                         <Link className="px-4 py-2" to="/">
                             Home
